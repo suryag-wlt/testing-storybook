@@ -1,0 +1,78 @@
+.primary {
+    background-color:#EBA928;
+    height: 38px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.secondary {
+    background-color: #FFFFFF;
+    height: 38px;
+    padding: 5px 10px;
+    border: 1px solid #D9D9D9;
+    border-radius: 4px;
+    color: #D9D9D9;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.primary {
+    background-color: #FFDA93;
+    height: 38px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.wlt-btn-round {
+    background-color:#EBA928;
+    height: 38px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: none;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.primary-border{
+    background-color: #FFFFFF;
+    height: 38px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid#EBA928;
+    color:#EBA928;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.border-none {
+    background-color: #FFFFFF;
+    height: 38px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: none;
+    color:#EBA928;
+    font-size: 14px;
+    font-weight: 500;
+}
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#EBA928;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 5px;
+  border-radius: 50px;
+  min-width: 24px;
+  height: 24px;
+}
