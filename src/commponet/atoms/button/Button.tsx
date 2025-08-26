@@ -46,7 +46,7 @@ const WltButton: React.FC<ButtonProps> = ({
   return (
     <button
       onClick={onClick}
-      className={className}
+      className={className || "primary"}
       style={{
         fontSize,
         color,
