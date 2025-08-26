@@ -3,6 +3,7 @@ import "./button.css";
 
 interface ButtonProps {
   buttonText: string | number;
+  type: "submit" | "reset" | "button" | undefined;
   backgroundColor?: string;
   fontSize?: string;
   fontWeight?: string;
@@ -25,6 +26,7 @@ interface ButtonProps {
 
 const WltButton: React.FC<ButtonProps> = ({
   buttonText,
+  type,
   backgroundColor,
   fontSize,
   fontWeight,
@@ -46,6 +48,7 @@ const WltButton: React.FC<ButtonProps> = ({
   return (
     <button
       onClick={onClick}
+      type={type}
       className={className || "primary"}
       style={{
         fontSize,

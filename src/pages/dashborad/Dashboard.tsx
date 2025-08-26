@@ -4,6 +4,11 @@ import WltLabel from "../../commponet/atoms/label/Label";
 import "./Dashboard.css";
 
 const Dashboard = () => {
+  const SendData = () => {
+    alert("Data Sent Successfully");
+  };
+  console.log("Dashboard Rendered");
+
   return (
     <>
       <div className="container">
@@ -24,7 +29,16 @@ const Dashboard = () => {
               placeholdder="Enter password "
             />
           </div>
-          <WltButton buttonText="Send" className="" />
+          <WltButton
+            type="submit"
+            buttonText="Send"
+            onClick={() => SendData()}
+          />
+          <WltButton
+            type="reset"
+            buttonText="Reset"
+            className="secondary ms-3"
+          />
         </form>
       </div>
     </>
