@@ -1,10 +1,7 @@
 
 import type { Meta, StoryObj } from '@storybook/react-vite';
-
 import InboxScreen from './InboxScreen';
-
 import store from '../../../lib/store';
-
 import { Provider } from 'react-redux';
 
 const meta = {
