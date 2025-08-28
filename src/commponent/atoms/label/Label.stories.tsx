@@ -2,7 +2,7 @@ import WltLabel from "./Label";
 import type { Meta, StoryObj } from "@storybook/react-vite";
 
 const meta: Meta<typeof WltLabel> = {
-  title: "Components/atoms/WltLabel",
+  title: "Component/atoms/WltLabel",
   component: WltLabel,
   tags: ["autodocs"],
   argTypes: {

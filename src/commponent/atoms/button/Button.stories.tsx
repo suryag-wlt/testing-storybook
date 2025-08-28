@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from "@storybook/react-vite";
 import WltButton from "./Button";
 
 const meta: Meta<typeof WltButton> = {
-  title: "Components/atoms/WltButton",
+  title: "Component/atoms/WltButton",
   component: WltButton,
   tags: ["autodocs"],
     argTypes: {

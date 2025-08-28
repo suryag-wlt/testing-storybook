@@ -1,6 +1,6 @@
-import WltButton from "../../commponet/atoms/button/Button";
-import WltInput from "../../commponet/atoms/input/Input";
-import WltLabel from "../../commponet/atoms/label/Label";
+import WltButton from "../../commponent/atoms/button/Button";
+import WltInput from "../../commponent/atoms/input/Input";
+import WltLabel from "../../commponent/atoms/label/Label";
 import "./Dashboard.css";
 
 const Dashboard = () => {

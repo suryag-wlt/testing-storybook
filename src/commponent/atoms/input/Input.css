@@ -1,6 +1,6 @@
 .form-control {
     border-radius: 4px;
-    border-color: var(--gray-input-field-outline) !important;
+    border-color: #D9D9D9 ;
     padding: 0 12px;
     height: 44px;
     max-width: 356px !important;
@@ -10,7 +10,7 @@
 }
 
 .form-control::placeholder {
-    color: var(--Gray-Subtitle);
+    color: #B7B7B7;
 }
 
 .form-control:focus {
