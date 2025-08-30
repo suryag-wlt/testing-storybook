@@ -15,7 +15,8 @@
     "test:coverage": "jest --coverage",
     "test:a11y": "jest src/**/*.a11y.test.tsx",
     "test:interaction": "jest src/**/*.interaction.test.tsx",
-    "test:snapshot": "jest src/**/*.snapshot.test.tsx"
+    "test:snapshot": "jest src/**/*.snapshot.test.tsx",
+    "chromatic": "chromatic --project-token=<project-token>"
   },
   "dependencies": {
     "@chromatic-com/storybook": "^4.1.1",
